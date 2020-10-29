@@ -2,6 +2,7 @@ package thread.tortoise;
 
 import javax.swing.*;
 
-public class Tortoise {
+public class Tortoise implements Runnable {
+
 
 }
