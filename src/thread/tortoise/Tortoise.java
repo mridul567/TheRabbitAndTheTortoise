@@ -13,5 +13,9 @@ public class Tortoise implements Runnable {
 
     }
 
+    public Thread getTortoise() {
+        return tortoise;
+    }
+
 
 }
