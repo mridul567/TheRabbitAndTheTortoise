@@ -4,7 +4,7 @@ import javax.swing.*;
 
 public class Tortoise implements Runnable {
 
-    private static final int MILESTONES= 5;
+    private static final int MILESTONES = 5;
 
     private final Thread tortoise;
 
@@ -32,7 +32,6 @@ public class Tortoise implements Runnable {
                     break;
                 case 3:
                     System.out.println("The Tortoise has reached the Big Oak Tree!");
-                    System.out.println("The Tortoise is leading and hence is going to sleep!");
                     try {
                         Thread.sleep(9000L);
                     } catch (InterruptedException e) {
@@ -55,7 +54,7 @@ public class Tortoise implements Runnable {
                 "Tortoise",
                 JOptionPane.OK_CANCEL_OPTION
         );
-            }
-        }
+    }
+}
 
 
